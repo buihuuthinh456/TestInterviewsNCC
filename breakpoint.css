@@ -1,0 +1,21 @@
+
+/* PC */
+@media (min-width:1025px) {
+    
+}
+
+/* Tablet */
+@media (max-width:1024px){
+    .content-list{
+        grid-template-columns: auto auto;
+        grid-gap: 30px;
+    }
+}
+
+/* Mobile */
+@media (max-width:560px) {
+    .content-list{
+        grid-template-columns: auto;
+        grid-gap: 30px;
+    }
+}
